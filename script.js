@@ -26,3 +26,21 @@ else{
 
 
 
+//*** Exercícios bônus
+//4 - Criar uma condição que exiba uma mensagem no console se seu nome começar com a letra R
+
+let nome = "João"
+
+if(nome.substring(0,1) === "E"){
+    console.log("Seu nome começa com a letra E")
+}else{
+    console.log("Seu nome não começa com a letra E")
+}
+
+//5 - Criar uma condição que exiba uma mensagem no console se seu sobrenome tenha mais de 6 letras OU seu nome começar com a letra E
+
+let sobrenome = "Vitor"
+
+if (sobrenome.length > 6 || nome.substring(0,1) === "E"){
+    console.log("Seu nome começa com a letra E ou seu sobrenome tem mais de 6 letras")
+}else{ console.log("Seu nome não começa com a letra E ou seu sobrenome não tem mais de 6 letras")}
